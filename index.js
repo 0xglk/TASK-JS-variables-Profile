@@ -42,17 +42,29 @@
  * */
 
 let stars = 0;
-
+let fullName = `My name is abdullah`;
+let yearOfBirth = `I am ${2022-1998}`;
+let hobby = "My hobby is coding";
+let funFact = "I don't know how to code ;p"; 
+const image ="https://www.blexar.com/avatar.png";
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  ++stars;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  --stars;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  newStar= stars+2;
+  stars=newStar;
+
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  newStar= stars-2;
+  stars=newStar;
+
 }
